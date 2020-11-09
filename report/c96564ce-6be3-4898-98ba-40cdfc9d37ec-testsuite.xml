@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604768484248' stop='1604768511522'>
+    <name>Create Todos:</name>
+    <title>Create Todos:</title>
+    <test-cases>
+        <test-case start='1604768484249' status='passed' stop='1604768498965'>
+            <name>Create a new todo</name>
+            <title>Create a new todo</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604768495486' status='passed' stop='1604768495486'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604768495486' status='passed' stop='1604768495486'>
+                    <name>If I create new todo</name>
+                    <title>If I create new todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604768495487' status='passed' stop='1604768496090'>
+                    <name>TodosPage: enterInput "Wakeup early"</name>
+                    <title>TodosPage: enterInput "Wakeup early"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604768495487' status='passed' stop='1604768495935'>
+                            <name>I fill field ".new-todo", "Wakeup early"</name>
+                            <title>I fill field ".new-todo", "Wakeup early"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604768495936' status='passed' stop='1604768496088'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604768496089' status='passed' stop='1604768496089'>
+                            <name>Then I see the new todo on my list</name>
+                            <title>Then I see the new todo on my list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604768496090' status='passed' stop='1604768496187'>
+                    <name>TodosPage: seeNumberOfTodos 1</name>
+                    <title>TodosPage: seeNumberOfTodos 1</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604768496090' status='passed' stop='1604768496185'>
+                            <name>I see number of visible elements ".list-group li", 1</name>
+                            <title>I see number of visible elements ".list-group li", 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604768496187' status='passed' stop='1604768498963'>
+                    <name>I save screenshot "create-todo.png"</name>
+                    <title>I save screenshot "create-todo.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604768498979' status='failed' stop='1604768508849'>
+            <name>Create multiple todos</name>
+            <title>Create multiple todos</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604768508847' status='passed' stop='1604768508847'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604768508848' status='passed' stop='1604768508848'>
+                    <name>If I create multiple todos</name>
+                    <title>If I create multiple todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='9cd5a0a8-6a7c-4d75-8fba-f615bb612a50-attachment.png' type='image/png' size='36106'/>
+            </attachments>
+            <failure>
+                <message>TodosPage.enterTodo is not a function</message>
+                <stack-trace>TypeError: TodosPage.enterTodo is not a function
+                    at Test.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/create-todo.test.js:24:13)
+                    at Context.test.fn (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

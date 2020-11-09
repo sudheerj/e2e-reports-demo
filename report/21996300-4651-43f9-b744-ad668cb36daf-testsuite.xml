@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604729060061' stop='1604729070176'>
+    <name>Create Todos:</name>
+    <title>Create Todos:</title>
+    <test-cases>
+        <test-case start='1604729060062' status='undefined'>
+            <name>Create a new todo</name>
+            <title>Create a new todo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

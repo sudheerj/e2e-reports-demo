@@ -3,7 +3,7 @@
     <input
       v-model="newTodo"
       type="text"
-      class="form-control"
+      class="new-todo form-control"
       placeholder="Create a new task..."
     />
   </form>

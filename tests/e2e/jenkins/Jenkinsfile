@@ -1,0 +1,26 @@
+node {
+    def imageTag = "codecept/e2e:${env.BUILD_NUMBER}"
+
+    stage("Initializing") {
+        cleanWs();
+        checkout scm;
+        sh 'git reset --hard'
+    }
+
+    stage("Building image") {
+        sh "docker build -t ${imageTag} -f tests/e2e/docker/Dockerfile ."
+    }
+
+    stage("Running tests") {
+        try {
+            sh "chmod 777 tests/e2e/jenkins/run-tests.sh"
+            sh "tests/e2e/jenkins/run-tests.sh ${env.BUILD_NUMBER}"
+        } catch(err) {
+            echo err.getMessage()
+            echo "Error occurred while running the tests"
+        } finally {
+            sh "ls report"
+            echo "Build is completed"
+        }
+    }
+}

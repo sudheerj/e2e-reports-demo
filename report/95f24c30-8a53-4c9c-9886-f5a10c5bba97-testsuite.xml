@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604926953636' stop='1604926968022'>
+    <name>Edit Todos:</name>
+    <title>Edit Todos:</title>
+    <test-cases>
+        <test-case start='1604926953638' status='failed' stop='1604926965412'>
+            <name>Save edited todo on blur</name>
+            <title>Save edited todo on blur</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604926964944' status='passed' stop='1604926964944'>
+                    <name>Consider I have some existing todos</name>
+                    <title>Consider I have some existing todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926964944' status='passed' stop='1604926964944'>
+                    <name>When I edit the second todo</name>
+                    <title>When I edit the second todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926964946' status='passed' stop='1604926965227'>
+                    <name>TodosPage: editTodo 1, "Go to college"</name>
+                    <title>TodosPage: editTodo 1, "Go to college"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604926964946' status='passed' stop='1604926965225'>
+                            <name>I click 1 todo item</name>
+                            <title>I click 1 todo item</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926965226' status='passed' stop='1604926965226'>
+                            <name>Then I see that the todo text has been changed</name>
+                            <title>Then I see that the todo text has been changed</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604926965227' status='failed' stop='1604926965412'>
+                    <name>TodosPage: verifyTodoEquals 1, "Go to college"</name>
+                    <title>TodosPage: verifyTodoEquals 1, "Go to college"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604926965227' status='passed' stop='1604926965409'>
+                            <name>I grab text from ".list-group li"</name>
+                            <title>I grab text from ".list-group li"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='af13f9ea-84b6-4313-85ed-55dd13c25017-attachment.png' type='image/png' size='58034'/>
+            </attachments>
+            <failure>
+                <message>Expected "Go to college" but got "Wakeup early"</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Expected "Go to college" but got "Wakeup early"
+                    at Object.verifyTodoEquals (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/pages/todos.page.js:36:5)
+                    at Test.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/edit-todo.test.js:19:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,161 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604926623975' stop='1604926652859'>
+    <name>Create Todos:</name>
+    <title>Create Todos:</title>
+    <test-cases>
+        <test-case start='1604926623976' status='passed' stop='1604926638793'>
+            <name>Create a new todo</name>
+            <title>Create a new todo</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604926635273' status='passed' stop='1604926635273'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926635274' status='passed' stop='1604926635274'>
+                    <name>If I create new todo</name>
+                    <title>If I create new todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926635275' status='passed' stop='1604926635906'>
+                    <name>TodosPage: enterInput "Wakeup early"</name>
+                    <title>TodosPage: enterInput "Wakeup early"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604926635275' status='passed' stop='1604926635750'>
+                            <name>I fill field ".new-todo", "Wakeup early"</name>
+                            <title>I fill field ".new-todo", "Wakeup early"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926635751' status='passed' stop='1604926635904'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926635905' status='passed' stop='1604926635905'>
+                            <name>Then I see the new todo on my list</name>
+                            <title>Then I see the new todo on my list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604926635906' status='passed' stop='1604926635965'>
+                    <name>TodosPage: seeNumberOfTodos 1</name>
+                    <title>TodosPage: seeNumberOfTodos 1</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604926635906' status='passed' stop='1604926635963'>
+                            <name>I see number of visible elements ".list-group li", 1</name>
+                            <title>I see number of visible elements ".list-group li", 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604926635965' status='passed' stop='1604926638792'>
+                    <name>I save screenshot "create-todo.png"</name>
+                    <title>I save screenshot "create-todo.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604926638806' status='passed' stop='1604926652846'>
+            <name>Create multiple todos</name>
+            <title>Create multiple todos</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604926648545' status='passed' stop='1604926648545'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926648545' status='passed' stop='1604926648545'>
+                    <name>If I create multiple todos</name>
+                    <title>If I create multiple todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926648547' status='passed' stop='1604926650125'>
+                    <name>TodosPage: enterInput "Eat breakfast"</name>
+                    <title>TodosPage: enterInput "Eat breakfast"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604926648547' status='passed' stop='1604926648993'>
+                            <name>I fill field ".new-todo", "Wakeup early"</name>
+                            <title>I fill field ".new-todo", "Wakeup early"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926648995' status='passed' stop='1604926649151'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926649153' status='passed' stop='1604926649498'>
+                            <name>I fill field ".new-todo", "Go for jogging"</name>
+                            <title>I fill field ".new-todo", "Go for jogging"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926649500' status='passed' stop='1604926649647'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926649649' status='passed' stop='1604926649974'>
+                            <name>I fill field ".new-todo", "Eat breakfast"</name>
+                            <title>I fill field ".new-todo", "Eat breakfast"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926649976' status='passed' stop='1604926650123'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926650124' status='passed' stop='1604926650124'>
+                            <name>Then I have three todos on my list</name>
+                            <title>Then I have three todos on my list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604926650125' status='passed' stop='1604926650162'>
+                    <name>TodosPage: seeNumberOfTodos 3</name>
+                    <title>TodosPage: seeNumberOfTodos 3</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604926650125' status='passed' stop='1604926650161'>
+                            <name>I see number of visible elements ".list-group li", 3</name>
+                            <title>I see number of visible elements ".list-group li", 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604926650162' status='passed' stop='1604926652845'>
+                    <name>I save screenshot "create-multiple-todos.png"</name>
+                    <title>I save screenshot "create-multiple-todos.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

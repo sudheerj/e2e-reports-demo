@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604937254661' stop='1604937266474'>
+    <name>Delete Todos:</name>
+    <title>Delete Todos:</title>
+    <test-cases>
+        <test-case start='1604937254663' status='passed' stop='1604937266467'>
+            <name>Delete todos</name>
+            <title>Delete todos</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604937265957' status='passed' stop='1604937265957'>
+                    <name>Consider I have some todos</name>
+                    <title>Consider I have some todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604937265957' status='passed' stop='1604937265957'>
+                    <name>When I delete the last todo</name>
+                    <title>When I delete the last todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604937265959' status='passed' stop='1604937266433'>
+                    <name>TodosPage: deleteTodo 2</name>
+                    <title>TodosPage: deleteTodo 2</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604937265959' status='passed' stop='1604937266114'>
+                            <name>I hover ".list-group li:nth-child(2)"</name>
+                            <title>I hover ".list-group li:nth-child(2)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604937266116' status='passed' stop='1604937266431'>
+                            <name>I click {xpath: (.//button)[position()=last()-0][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]}</name>
+                            <title>I click {xpath: (.//button)[position()=last()-0][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604937266431' status='passed' stop='1604937266431'>
+                            <name>Then the todo should disappear from the list</name>
+                            <title>Then the todo should disappear from the list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604937266433' status='passed' stop='1604937266467'>
+                    <name>TodosPage: seeNumberOfTodos 2</name>
+                    <title>TodosPage: seeNumberOfTodos 2</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604937266433' status='passed' stop='1604937266466'>
+                            <name>I see number of visible elements ".list-group li", 2</name>
+                            <title>I see number of visible elements ".list-group li", 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

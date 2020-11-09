@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604750641779' stop='1604750665953'>
+    <name>Create Todos:</name>
+    <title>Create Todos:</title>
+    <test-cases>
+        <test-case start='1604750641780' status='failed' stop='1604750651953'>
+            <name>Create a new todo</name>
+            <title>Create a new todo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='e72fb1d8-7676-4702-b3dd-8f7a663692c0-attachment.png' type='image/png' size='18514'/>
+            </attachments>
+            <failure>
+                <message>I.say is not a function</message>
+                <stack-trace>TypeError: I.say is not a function
+                    at Test.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/create-todo.test.js:9:5)
+                    at Context.test.fn (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604750654702' status='failed' stop='1604750663329'>
+            <name>Create multiple todos</name>
+            <title>Create multiple todos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6473810f-6b5e-4334-89fe-3c62f1d07282-attachment.png' type='image/png' size='18514'/>
+            </attachments>
+            <failure>
+                <message>I.say is not a function</message>
+                <stack-trace>TypeError: I.say is not a function
+                    at Test.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/create-todo.test.js:21:5)
+                    at Context.test.fn (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

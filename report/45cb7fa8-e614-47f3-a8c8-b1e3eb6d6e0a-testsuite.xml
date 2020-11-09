@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604740995681' stop='1604741009869'>
+    <name>Create Todos:</name>
+    <title>Create Todos:</title>
+    <test-cases>
+        <test-case start='1604740995683' status='failed' stop='1604741007614'>
+            <name>Create a new todo</name>
+            <title>Create a new todo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed to find a DNS-record for the resource at &lt;a href="http://localhost:8080/">http://localhost:8080/&lt;/a>.</message>
+                <stack-trace>Error: Failed to find a DNS-record for the resource at &lt;a href="http://localhost:8080/">http://localhost:8080/&lt;/a>.
+                    at mapError (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/helper/testcafe/testcafe-utils.js:29:11)
+                    at invokeCallback (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:60:12)
+                    at Array.forEach (&lt;anonymous>)
+                    at publish (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:147:32)
+                    at Array.publishRejection (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:157:2)
+                    at Immediate.asyncFlush (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:17:19)
+                    at processImmediate (internal/timers.js:463:21)
+                    at process.topLevelDomainCallback (domain.js:138:15)
+                    at process.callbackTrampoline (internal/async_hooks.js:127:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

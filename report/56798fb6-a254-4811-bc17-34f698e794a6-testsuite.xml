@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604727049478' stop='1604727058080'>
+    <name>Edit Todos:</name>
+    <title>Edit Todos:</title>
+    <test-cases>
+        <test-case start='1604727049479' status='undefined'>
+            <name>Edit todo on blur</name>
+            <title>Edit todo on blur</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604937266479' stop='1604937281251'>
+    <name>Edit Todos:</name>
+    <title>Edit Todos:</title>
+    <test-cases>
+        <test-case start='1604937266481' status='passed' stop='1604937281239'>
+            <name>Save edited todo on blur</name>
+            <title>Save edited todo on blur</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604937277623' status='passed' stop='1604937277623'>
+                    <name>Consider I have some existing todos</name>
+                    <title>Consider I have some existing todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604937277623' status='passed' stop='1604937277623'>
+                    <name>When I edit the second todo</name>
+                    <title>When I edit the second todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604937277625' status='passed' stop='1604937278419'>
+                    <name>TodosPage: editTodo 1, "Go to college"</name>
+                    <title>TodosPage: editTodo 1, "Go to college"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604937277625' status='passed' stop='1604937277920'>
+                            <name>I click {xpath: (.//button)[position()=1][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 0]]}</name>
+                            <title>I click {xpath: (.//button)[position()=1][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 0]]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604937277922' status='passed' stop='1604937278270'>
+                            <name>I fill field {xpath: .//form/input[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 0]]}, "Go to college"</name>
+                            <title>I fill field {xpath: .//form/input[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 0]]}, "Go to college"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604937278272' status='passed' stop='1604937278417'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604937278418' status='passed' stop='1604937278418'>
+                            <name>Then I see that the todo text has been changed</name>
+                            <title>Then I see that the todo text has been changed</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604937278419' status='passed' stop='1604937278604'>
+                    <name>TodosPage: verifyTodoEquals 1, "Go to college"</name>
+                    <title>TodosPage: verifyTodoEquals 1, "Go to college"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604937278419' status='passed' stop='1604937278602'>
+                            <name>I grab text from ".list-group li"</name>
+                            <title>I grab text from ".list-group li"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604937278604' status='passed' stop='1604937281238'>
+                    <name>I save screenshot "saved-edited-todo-on-blur.png"</name>
+                    <title>I save screenshot "saved-edited-todo-on-blur.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

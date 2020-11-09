@@ -21,3 +21,9 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore output files
+/tests/e2e/output
+
+# Ignore report files
+/report

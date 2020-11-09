@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604763478165' stop='1604763544741'>
+    <name>Create Todos:</name>
+    <title>Create Todos:</title>
+    <test-cases>
+        <test-case start='1604763478166' status='failed' stop='1604763529095'>
+            <name>Create a new todo</name>
+            <title>Create a new todo</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604763489531' status='passed' stop='1604763489531'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604763489531' status='passed' stop='1604763489531'>
+                    <name>If I create new todo</name>
+                    <title>If I create new todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604763489533' status='passed' stop='1604763490166'>
+                    <name>TodosPage: enterInput "Wakeup early"</name>
+                    <title>TodosPage: enterInput "Wakeup early"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604763489533' status='passed' stop='1604763490002'>
+                            <name>I fill field ".new-todo", "Wakeup early"</name>
+                            <title>I fill field ".new-todo", "Wakeup early"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604763490004' status='passed' stop='1604763490164'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604763490165' status='passed' stop='1604763490165'>
+                            <name>Then I see the new todo on my list</name>
+                            <title>Then I see the new todo on my list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604763490166' status='failed' stop='1604763529095'>
+                    <name>TodosPage: seeNumberOfTodos 1</name>
+                    <title>TodosPage: seeNumberOfTodos 1</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604763490166' status='failed' stop='1604763529094'>
+                            <name>I see number of visible elements ".todo-list li", 1</name>
+                            <title>I see number of visible elements ".todo-list li", 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='83dd57ff-f3a3-4db6-bed8-347c78be8e27-attachment.png' type='image/png' size='80169'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: expected 0 to deeply equal 1</message>
+                <stack-trace>Error: AssertionError: expected 0 to deeply equal 1
+                    at mapError (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/helper/testcafe/testcafe-utils.js:29:11)
+                    at invokeCallback (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:60:12)
+                    at Array.forEach (&lt;anonymous>)
+                    at publish (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:147:32)
+                    at Array.publishRejection (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:157:2)
+                    at Immediate.asyncFlush (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/pinkie/index.js:17:19)
+                    at processImmediate (internal/timers.js:463:21)
+                    at process.topLevelDomainCallback (domain.js:138:15)
+                    at process.callbackTrampoline (internal/async_hooks.js:127:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604763532301' status='failed' stop='1604763542057'>
+            <name>Create multiple todos</name>
+            <title>Create multiple todos</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604763542055' status='passed' stop='1604763542055'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604763542056' status='passed' stop='1604763542056'>
+                    <name>If I create multiple todos</name>
+                    <title>If I create multiple todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='68ab1ebe-9077-4096-a8bb-5b7fe938d8cb-attachment.png' type='image/png' size='72424'/>
+            </attachments>
+            <failure>
+                <message>TodosPage.enterTodo is not a function</message>
+                <stack-trace>TypeError: TodosPage.enterTodo is not a function
+                    at Test.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/create-todo.test.js:24:13)
+                    at Context.test.fn (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

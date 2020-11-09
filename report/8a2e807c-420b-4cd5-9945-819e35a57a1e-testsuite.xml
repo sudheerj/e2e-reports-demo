@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604926652874' stop='1604926671814'>
+    <name>Delete Todos:</name>
+    <title>Delete Todos:</title>
+    <test-cases>
+        <test-case start='1604926652877' status='failed' stop='1604926669188'>
+            <name>Delete todos</name>
+            <title>Delete todos</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604926664034' status='passed' stop='1604926664034'>
+                    <name>Consider I have some todos</name>
+                    <title>Consider I have some todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926664035' status='passed' stop='1604926664035'>
+                    <name>When I delete the last todo</name>
+                    <title>When I delete the last todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604926664036' status='failed' stop='1604926669188'>
+                    <name>TodosPage: deleteTodo 2</name>
+                    <title>TodosPage: deleteTodo 2</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604926664036' status='passed' stop='1604926664186'>
+                            <name>I hover ".list-group li:nth-child(2)"</name>
+                            <title>I hover ".list-group li:nth-child(2)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604926664188' status='failed' stop='1604926669187'>
+                            <name>I click {xpath: .//div/button[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]}</name>
+                            <title>I click {xpath: .//div/button[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='87fef273-e5ca-4e92-92d4-e4527e291c5c-attachment.png' type='image/png' size='58934'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "{"type":"xpath","output":null,"strict":true,"locator":{"xpath":".//div/button[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]"},"value":".//div/button[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]"}" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "{"type":"xpath","output":null,"strict":true,"locator":{"xpath":".//div/button[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]"},"value":".//div/button[ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' list-group ')]//li[count(preceding-sibling::*) = 1]]"}" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/helper/TestCafe.js:1244:11)
+                    at TestCafe.proceedClick (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/helper/TestCafe.js:1284:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

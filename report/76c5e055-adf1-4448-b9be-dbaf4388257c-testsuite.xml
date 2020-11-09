@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604755076706' stop='1604755104205'>
+    <name>Create Todos:</name>
+    <title>Create Todos:</title>
+    <test-cases>
+        <test-case start='1604755076707' status='failed' stop='1604755089002'>
+            <name>Create a new todo</name>
+            <title>Create a new todo</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604755088364' status='passed' stop='1604755088364'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604755088365' status='passed' stop='1604755088365'>
+                    <name>If I create new todo</name>
+                    <title>If I create new todo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604755088366' status='failed' stop='1604755089002'>
+                    <name>TodosPage: enterInput "Wakeup early"</name>
+                    <title>TodosPage: enterInput "Wakeup early"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604755088366' status='passed' stop='1604755088838'>
+                            <name>I fill field ".new-todo", "Wakeup early"</name>
+                            <title>I fill field ".new-todo", "Wakeup early"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604755088839' status='passed' stop='1604755089000'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1604755089001' status='passed' stop='1604755089001'>
+                            <name>Then I see the new todo on my list</name>
+                            <title>Then I see the new todo on my list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='a8daa214-efe1-4570-b13a-0cc3fef77ec1-attachment.png' type='image/png' size='80166'/>
+            </attachments>
+            <failure>
+                <message>TodosPage.seeNumberOfTodos is not a function</message>
+                <stack-trace>TypeError: TodosPage.seeNumberOfTodos is not a function
+                    at Test.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/create-todo.test.js:15:13)
+                    at Context.test.fn (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604755091835' status='failed' stop='1604755101374'>
+            <name>Create multiple todos</name>
+            <title>Create multiple todos</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1604755101372' status='passed' stop='1604755101372'>
+                    <name>Consider I have an empty todo list</name>
+                    <title>Consider I have an empty todo list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604755101373' status='passed' stop='1604755101373'>
+                    <name>If I create multiple todos</name>
+                    <title>If I create multiple todos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f3b46149-19ca-4ca8-9dfe-421004beae5d-attachment.png' type='image/png' size='72424'/>
+            </attachments>
+            <failure>
+                <message>TodosPage.enterTodo is not a function</message>
+                <stack-trace>TypeError: TodosPage.enterTodo is not a function
+                    at Test.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/create-todo.test.js:24:13)
+                    at Context.test.fn (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604925932936' stop='1604925944214'>
+    <name>Delete Todos:</name>
+    <title>Delete Todos:</title>
+    <test-cases>
+        <test-case start='1604925932938' status='failed' stop='1604925941636'>
+            <name>Delete todos</name>
+            <title>Delete todos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Context.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/tests/e2e/delete-todo.test.js:4:13)
+                    at Context.&lt;anonymous> (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/codeceptjs/lib/scenario.js:137:10)
+                    at callFnAsync (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:386:21)
+                    at Hook.Runnable.run (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:330:7)
+                    at next (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:454:10)
+                    at cbHookRun (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runner.js:495:7)
+                    at done (/Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:302:5)
+                    at /Users/sudheerjonna/Documents/js/e2e/e2e-reports-demo/node_modules/mocha/lib/runnable.js:363:11
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

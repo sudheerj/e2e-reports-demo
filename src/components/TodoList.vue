@@ -36,12 +36,7 @@ export default {
   },
   data() {
     return {
-      todos: [
-        { description: "Design Wireframes", completed: false },
-        { description: "Build website", completed: false },
-        { description: "Requirements discussion", completed: true },
-        { description: "Deploy your website", completed: false }
-      ]
+      todos: []
     };
   },
   methods: {

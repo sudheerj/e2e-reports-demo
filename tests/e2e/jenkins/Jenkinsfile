@@ -1,6 +1,10 @@
 node {
     def imageTag = "codecept/e2e:${env.BUILD_NUMBER}"
 
+    agent {
+        docker { image 'node:14-alpine' }
+    }
+
     stage("Initializing") {
         cleanWs();
         checkout scm;

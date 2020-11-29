@@ -7,7 +7,7 @@ const findTodoDeleteButton = index => locate('button').last().inside(`.list-grou
 
 module.exports = {
   goto() {
-    I.amOnPage('http://localhost:8080')
+    I.amOnPage('http://127.0.0.1:8081')
   },
 
   enterInput(todo) {

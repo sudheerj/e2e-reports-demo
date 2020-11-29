@@ -1,7 +1,5 @@
 FROM codeception/codeceptjs:latest
 
-RUN apt-get update && apt-get install -y sshpass sync
-
 COPY tests/e2e /workspace
 
 WORKDIR /workspace

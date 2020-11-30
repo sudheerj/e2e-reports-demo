@@ -12,7 +12,8 @@
     "all": "cross-env HEADLESS=true codeceptjs run-multiple basic",
     "interactive": "codeceptjs shell",
     "def": "codeceptjs def",
-    "allure": "allure serve output"
+    "allure": "allure serve output",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -37,7 +38,8 @@
     "prettier-eslint": "^11.0.0",
     "sass-loader": "^8.0.2",
     "testcafe": "^1.9.4",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "execa": "latest"
   },
   "keywords": [
     "vuejs",

@@ -23,6 +23,7 @@ node {
             echo "Error occurred while running the tests"
         } finally {
             sh "ls report"
+            allure includeProperties: false, jdk: '', results: [[path: 'report']]
             echo "Build is completed"
         }
     }

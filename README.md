@@ -1,24 +1,14 @@
 # e2e-reports-demo
 
-## Project setup
-```
-npm install
-```
+## Instructions to create E2E for Vue repo
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Create VueJS repository and make application available on particular domain.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2. Write e2e test cases based on codeceptjs and Testcafe.
 
-### Lints and fixes files
-```
-npm run lint
-```
+3. Integrate and run the test cases using local jenkins pipeline.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+4. Configure Allure to generate reports as below.
+
+![overview](images/overview.png)
+![graphs](images/graphs.png)

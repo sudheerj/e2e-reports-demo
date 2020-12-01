@@ -8,7 +8,3 @@ mkdir report
 docker run --rm \
     -v "${pwd}"/report/:/workspace/report/ \
     codecept/e2e:${VERSION}
-
-status= $?
-echo "Final status ${status}"
-exit ${status}
